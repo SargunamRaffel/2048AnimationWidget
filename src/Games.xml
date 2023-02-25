@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.games.Games" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Games</name>
+    <description>2048 by using JS</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="sampleText" type="string" required="false">
+                <caption>Name</caption>
+                <description>Sample text input</description>
+            </property>
+            <property key="score" type="attribute">
+                <caption>Score</caption>
+                <description>Total Score</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="buttonAction" type="action" >
+                    <caption>On click</caption>
+                    <description>Action to be performed when button is clicked</description>
+                </property>
+        </propertyGroup>
+    </properties>
+</widget>
