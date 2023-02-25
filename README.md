@@ -6,7 +6,7 @@ This widget enables user engagement by providing access to an animated game widg
 
  •	Place the widget on your preferred page.
  
- •	When the Gameover the microflow will trigger and Implement your custom logic with the help of adding a microflow.
+ •	When the game ends, the microflow will be triggered, allowing you to implement your custom logic with the help of a microflow.
 
 
 ## Demo project
